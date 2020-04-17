@@ -19,4 +19,8 @@ public class HelloController {
     public String hello1(){
         return "hello Git1";
     }
+     @RequestMapping(value = "/hello2")
+    public String hello2(){
+        return "hello Git2";
+    }
 }
